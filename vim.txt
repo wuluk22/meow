@@ -1,0 +1,27 @@
+gg		// goes to the first line
+G		// goes to the last line
+
+
+dw		// delete a word, you must be at the start
+x		// delete the char you're at
+d$		// erase until the end of the line
+de		// delete the rest of the word
+d2e		// delete next two words stoping at the end
+d2w		// delete next two wors stop at start of next
+de and d2e	// lets the space of the word afterl
+
+
+dd		// erases one line
+p		// paste the line erased
+y		// copy
+u		// undo
+U		// recovers a all line original state
+ctrl r		// undo undo
+
+
+2w		// repeats 2 times 'w'
+rx		// replace char by 'x'
+ce		// replace until the end of the word
+cw		//
+c$		//
+
